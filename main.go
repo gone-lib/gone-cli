@@ -19,7 +19,7 @@ type command struct {
 }
 
 func usage() {
-	fmt.Fprintf(os.Stderr, "gone-cli is a cli tool for gone.\n\n")
+	fmt.Fprintf(os.Stderr, "gone-cli is the cli tool for gone.\n\n")
 	fmt.Fprintf(os.Stderr, "Usage:\n\n")
 	fmt.Fprintf(os.Stderr, "\tgone-cli <command> [arguments]\n\n")
 	fmt.Fprintf(os.Stderr, "The commands are:\n\n")
